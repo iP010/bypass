@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="refresh" content="5; URL=/bypass/ZAIN.html">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>تخطي تحديد السرعة لـ Zain KSA</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="manifest" href="manifest-Zain.json">
+  <meta name="theme-color" content="#3498db">
+  <style>
+  :root{--bg-color:#f0f2f5;--container-bg:#ffffff;--text-color:#333;--heading-color:#2c3e50;--primary-color:#3498db;--primary-hover:#2980b9;--shadow-color:rgba(0,0,0,0.1)}@media (prefers-color-scheme:dark){:root{--bg-color:#1a1a1a;--container-bg:#2c2c2c;--text-color:#e0e0e0;--heading-color:#ffffff;--primary-color:#4a90e2;--primary-hover:#3a7bc8;--shadow-color:rgba(255,255,255,0.1)}}*{box-sizing:border-box;margin:0;padding:0}body,html{height:100%;overflow:hidden}body{font-family:Cairo,sans-serif;background-color:var(--bg-color);color:var(--text-color);display:flex;flex-direction:column}.container{width:100%;margin:0 auto;background-color:var(--container-bg);flex-grow:1;overflow-x:hidden;overflow-y:auto}h1,h2{text-align:center;color:var(--heading-color);margin-bottom:20px}.notification-bar{background-color:var(--primary-color);color:#fff;text-align:center;padding:15px;font-size:18px;font-weight:700;position:sticky;top:0;width:100%;z-index:1000}.countdown-container{text-align:center;margin:30px 0}.countdown-circle{width:120px;height:120px;background-color:var(--primary-color);color:#fff;border-radius:50%;font-size:36px;line-height:120px;margin:0 auto;box-shadow:0 0 10px rgba(52,152,219,.5)}.ad-container{margin:20px 0;text-align:center}.links{display:flex;justify-content:center;flex-wrap:wrap;margin:20px 0}.links a{margin:5px;padding:10px 15px;background-color:var(--primary-color);color:#fff;text-decoration:none;border-radius:5px;transition:background-color .3s}.links a:hover{background-color:var(--primary-hover)}.telegram-link{display:block;text-align:center;margin:20px 0;color:var(--primary-color);text-decoration:none;font-weight:700}.telegram-link i{margin-left:5px}@media (max-width:600px){.container{padding:10px}h1{font-size:24px}h2{font-size:18px}}.none{display:none}ة */
+  </style>
+</head>
+<body>
+  <div class="notification-bar"><i class="fas fa-info-circle"></i> هذه الخدمة مجانية بشكل كامل وغير مخصصة للبيع، وهي مملوكة من قبل عالم الراوترات</div>
+  <div class="container">
+    <h1><i class="fas fa-tachometer-alt"></i> تخطي تحديد السرعة لـ Zain KSA</h1>
+    <h2><i class="fas fa-sync-alt"></i> الرجاء ترك الصفحة مفتوحة وسيتم تحديث الصفحة كل 5 ثواني</h2>
+
+    <div class="countdown-container">
+      <div class="countdown-circle" id="countdown">5</div>
+    </div>
+    <div class="links">
+      <a href="/bypass/STC.html">تخطي STC</a>
+      <a href="/bypass/MOBILY.html">تخطي Mobily</a>
+      <a href="/bypass/ZAIN.html">تخطي Zain</a>
+      <a href="/bypass/ITC.html">تخطي ITC</a>
+      <a href="/bypass/GO.html">تخطي GO</a>
+    </div>
+    <a href="https://t.me/xRouter_Group/" class="telegram-link"><i class="fab fa-telegram"></i> مجموعة عالم الراوترات</a>
+  </div>
+
+  <iframe class="none" src="https://speedtest-dammamnew.sa.zain.com.prod.hosts.ooklaserver.net:8080/speedtest/upload.php"></iframe>
+  <iframe class="none" src="https://server-6419.prod.hosts.ooklaserver.net:8080/speedtest/upload.php"></iframe>
+
+  <script>
+    let countdown = 6;
+    const countdownDisplay = document.getElementById("countdown");
+    function updateCountdown() {
+      countdown--;
+      countdownDisplay.textContent = countdown;
+      if (countdown <= 0) {
+        clearInterval(countdownInterval);
+        countdownDisplay.textContent = "انتهى";
+      }
+    }
+    updateCountdown();
+    const countdownInterval = setInterval(updateCountdown, 1000);
+  </script>
+
+  <!-- تسجيل Service Worker -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/service-worker.js')
+        .then(registration => {
+          console.log('Service Worker registered with scope:', registration.scope);
+        })
+        .catch(error => {
+          console.log('Service Worker registration failed:', error);
+        });
+    }
+  </script>
+</body>
+</html>
