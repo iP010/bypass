@@ -1,0 +1,21 @@
+{
+  "name": "تخطي تحديد السرعة لـ GO",
+  "short_name": "تخطي GO",
+  "description": "خدمة مجانية لتخطي تحديد السرعة لـ GO.",
+  "start_url": "https://xlmnxp.github.io/ikhd/GO.html",
+  "display": "standalone",
+  "background_color": "#f0f2f5",
+  "theme_color": "#3498db",
+  "icons": [
+    {
+      "src": "/icons/go-icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/go-icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

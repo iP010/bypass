@@ -1,0 +1,21 @@
+{
+  "name": "تخطي تحديد السرعة لـ Mobily",
+  "short_name": "تخطي Mobily",
+  "description": "خدمة مجانية لتخطي تحديد السرعة لـ Mobily.",
+  "start_url": "https://xlmnxp.github.io/ikhd/Mobily.html",
+  "display": "standalone",
+  "background_color": "#f0f2f5",
+  "theme_color": "#3498db",
+  "icons": [
+    {
+      "src": "/icons/mobily-icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/mobily-icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
